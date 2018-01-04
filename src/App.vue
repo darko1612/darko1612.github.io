@@ -39,7 +39,7 @@ export default {
         opacity: 0.8;
         font-weight: 700;
         background-size: 36%;
-        font-family: 'Brush Script MT',sans-serif;
+        font-family: 'Brush Script MT',serif;
 
     }
 
