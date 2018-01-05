@@ -21,6 +21,7 @@ position: relative;
     .foot>a {
         margin: 45px;
         color: black;
+        font-size: 17px;
 
     }
     .foot {

@@ -90,7 +90,7 @@ export default {
     }
 
     /* Responsive: Portrait tablets and up */
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 800px) {
         /* Remove the padding we set earlier */
         .header,
         .marketing,
@@ -103,9 +103,30 @@ export default {
         .header {
             margin-top: 15px;
         }
+
+
         /* Remove the bottom border on the jumbotron for visual effect */
 
 
 
+    }
+    h3{
+        color: white;
+        text-shadow: black 3px 3px 3px;
+        font-size: 46px;
+    }
+    a {
+        color: black;
+    }
+    .box {
+        border: solid 1px rgb(219,166,114);
+        background-color: chocolate;
+        padding: 20px;
+        text-align: center;
+        box-shadow: chocolate 10px 8px 8px;
+        border-radius: 100%;
+        padding-top: 6%;
+        margin-top: 10%;
+        color: rgb(114, 54, 62);
     }
 </style>
