@@ -37,7 +37,7 @@ export default {
         background-repeat: repeat;
         background-position: center;
         opacity: 0.8;
-        font-weight: 800;
+        font-weight: 400;
         background-size: 36%;
         font-family: 'Indie Flower', cursive;
 
