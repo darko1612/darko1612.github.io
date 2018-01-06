@@ -27,15 +27,18 @@ export default {
 <style>
 li {
     font-size:38px;
-    color: black;
     text-shadow: white 3px 3px 3px;
     position: fixed;
     left: 38px;
+    color: aliceblue;
 }
     ul {
         font-size: 20px;
-        font-weight: 900;
 
+
+    }
+    a {
+       background-color: aliceblue;
     }
 
 

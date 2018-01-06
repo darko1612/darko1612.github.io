@@ -32,7 +32,7 @@
     }
 </script>
 
-<style scoped="Gallery.vue">
+<style scoped>
     img {
         width: 200px;
         border: 2px solid black;

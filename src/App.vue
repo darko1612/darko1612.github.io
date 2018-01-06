@@ -37,9 +37,10 @@ export default {
         background-repeat: repeat;
         background-position: center;
         opacity: 0.8;
-        font-weight: 700;
+        font-weight: 800;
         background-size: 36%;
-        font-family: 'Brush Script MT',serif;
+        font-family: 'Indie Flower', cursive;
+
 
     }
 
