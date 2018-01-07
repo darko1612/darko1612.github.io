@@ -39,7 +39,7 @@ export default {
         opacity: 0.9;
         font-weight: 400;
         background-size: 36%;
-        font-family: 'Indie Flower', cursive;
+        font-family: 'Caveat', cursive;
 
 
     }
@@ -113,15 +113,23 @@ export default {
 
            padding: 30px;
        }
+       div.box {
+           width: 100%;
+           margin-left: 4px;
+       }
 
     }
-    @media  screen and (max-height: 375px){
+    @media  screen and (max-height: 415px){
         .image {
             margin: 10px;
         }
         img {
             max-width:110px;
 
+        }
+        div.box {
+            width: 100%;
+            margin-left: 2%;
         }
     }
     h3{
