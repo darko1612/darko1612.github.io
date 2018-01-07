@@ -10,10 +10,10 @@
         data() {
             return {
                 contact:[
-                    {info : 'Instagram : saznati'},
-                    {info : 'Facebook : saznati'},
+                    {info : 'Instagram : ######'},
+                    {info : 'Facebook : #######'},
                     {info : 'Telefon : 063 716 20 61'},
-                    {info : 'Email : napraviti'}
+                    {info : 'Email : ######'}
                 ]
             }
         }

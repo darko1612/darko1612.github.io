@@ -16,7 +16,7 @@ export default {
             navigation: [
                 {link:'/#/kontakt', page: 'Kontakt'},
                 {link:'/#/galerija', page: 'Galerija'},
-                {link:'/#/', page: 'Pocetna'},
+                {link:'/#/', page: 'Početna'},
             ],
 
         }
@@ -26,17 +26,13 @@ export default {
 
 <style>
 li {
-    font-size:38px;
+    font-size:40px;
     text-shadow: white 3px 3px 3px;
     position: fixed;
-    left: 38px;
+    left: 68px;
     color: aliceblue;
 }
-    ul {
-        font-size: 20px;
 
-
-    }
     a {
        background-color: aliceblue;
     }

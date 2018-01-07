@@ -36,7 +36,7 @@ export default {
         background-image: url("./assets/logo.png");
         background-repeat: repeat;
         background-position: center;
-        opacity: 0.8;
+        opacity: 0.9;
         font-weight: 400;
         background-size: 36%;
         font-family: 'Indie Flower', cursive;
@@ -91,7 +91,7 @@ export default {
     }
 
     /* Responsive: Portrait tablets and up */
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 700px) {
         /* Remove the padding we set earlier */
         .header,
         .marketing,
@@ -104,12 +104,25 @@ export default {
         .header {
             margin-top: 15px;
         }
+        div.image {
+           margin-left: 22%;
+        }
+         /* Remove the bottom border on the jumbotron for visual effect */
 
+       .box>h3 {
 
-        /* Remove the bottom border on the jumbotron for visual effect */
+           padding: 30px;
+       }
 
+    }
+    @media  screen and (max-height: 375px){
+        .image {
+            margin: 10px;
+        }
+        img {
+            max-width:110px;
 
-
+        }
     }
     h3{
         color: white;
@@ -121,12 +134,14 @@ export default {
     }
     .box {
         border: solid 1px rgb(219,166,114);
+        width: 120%;
         background-color: chocolate;
         padding: 20px;
         text-align: center;
-        box-shadow: chocolate 10px 8px 8px;
+        box-shadow: brown 10px 8px 8px;
         border-radius: 100%;
         padding-top: 6%;
+        margin-left: -12% ;
         margin-top: 10%;
         color: rgb(114, 54, 62);
     }

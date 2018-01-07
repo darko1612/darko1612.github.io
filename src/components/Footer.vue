@@ -1,7 +1,7 @@
 <template>
     <div>
         <hr>
-        <a href="/#/">Pocetna</a>
+        <a href="/#/">Početna</a>
         <a href="/#/galerija">Galerija</a>
         <a href="/#/kontakt">Kontakt</a>
         <a href="">Dizajn DK</a>
@@ -21,7 +21,7 @@ position: relative;
     .foot>a {
         margin: 45px;
         color: black;
-        font-size: 17px;
+        font-size: 18px;
 
     }
     .foot {
