@@ -10,15 +10,17 @@
         data() {
             return {
                 contact:[
-                    {info : 'Instagram : ######'},
+                    {info : 'Instagram : cookies_d'},
                     {info : 'Facebook : #######'},
                     {info : 'Telefon : 063 716 20 61'},
-                    {info : 'Email : ######'}
+                    {info : 'Email : coja.ns.89@gmail.com'}
                 ]
             }
         }
     }
 </script>
-<style>
-
+<style >
+h3 {
+    padding-right: 10%;
+}
 </style>

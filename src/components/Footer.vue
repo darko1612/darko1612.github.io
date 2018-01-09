@@ -22,9 +22,12 @@ position: relative;
         margin: 45px;
         color: black;
         font-size: 18px;
+        font-weight: 500;
 
     }
     .foot {
+        width: 95%;
         margin-top: 100px;
+        margin-left: 9%;
     }
 </style>

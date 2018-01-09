@@ -12,7 +12,7 @@ export default {
             intro: 'U vreme poklona, toplih čajeva i predivnih mirisa... ' +
             'potražite kolačiće po vasoj meri za bilo koju priliku... nalaze kod nas a lako mogu stići i do vas...' +
             'Predložite izgled, ukus i ideje jer kod nas se sve vaše želje ostvaruju ...' +
-            'Vaš CoockieSD'
+            'Vaš CookieSD'
 
             }
         }
@@ -23,7 +23,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
-  padding: 30px;
+  padding: 40px;
 }
 
 </style>

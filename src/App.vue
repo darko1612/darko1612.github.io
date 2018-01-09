@@ -31,8 +31,8 @@ export default {
 <style>
 
     body {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         background-image: url("./assets/logo.png");
         background-repeat: repeat;
         background-position: center;
@@ -43,11 +43,17 @@ export default {
 
 
     }
+    div>nav {
+        width:100%;
+        margin-left: -1%;
+
+    }
+
 
     .header h3 {
         margin-top: 0;
         margin-bottom: 0;
-        line-height: 40px;
+        line-height: 30px;
     }
 
     /* Custom page footer */
@@ -69,7 +75,7 @@ export default {
     }
 
     .container-narrow > hr {
-        margin: 5px 0;
+        margin: 0 0;
     }
 
     /* Main marketing message and sign up button */
@@ -86,9 +92,7 @@ export default {
     .marketing {
         margin: 40px 0;
     }
-    .marketing p + h4 {
-        margin-top: 28px;
-    }
+
 
     /* Responsive: Portrait tablets and up */
     @media screen and (max-width: 700px) {
@@ -104,53 +108,104 @@ export default {
         .header {
             margin-top: 15px;
         }
-        div.image {
-           margin-left: 22%;
-        }
+
          /* Remove the bottom border on the jumbotron for visual effect */
 
        .box>h3 {
 
-           padding: 30px;
+           padding: 10px;
        }
        div.box {
-           width: 100%;
+           width: 96%;
            margin-left: 4px;
+
+           background-size: cover;
+       }
+       nav>ul>li {
+
+           font-size: 40px;
+           width: 150%;
+
+
+
+       }
+       div>nav {
+           width:100%;
+           margin-left: -35%;
+
+       }
+       div.image {
+           margin-left: 25%;
+       }
+       div.gallery {
+           width: 90%;
+           margin-left: -1%;
        }
 
     }
     @media  screen and (max-height: 415px){
-        .image {
-            margin: 10px;
-        }
+
+
         img {
             max-width:110px;
 
         }
         div.box {
             width: 100%;
-            margin-left: 2%;
+
         }
+        div>nav {
+            width:200%;
+            margin-left: -100%;
+        }
+        nav>ul>li {
+            font-size: 40px;
+            width: 100%;
+        }
+        div.gallery {
+            width: 95%;
+            margin-left: 10%;
+        }
+        div.image {
+            width: 160px;
+            height: 160px;
+            margin: 5px;
+        }
+
     }
     h3{
-        color: white;
-        text-shadow: black 3px 3px 3px;
+        color: black;
+        text-shadow: white 3px 4px 3px;
         font-size: 46px;
+        font-weight: 500;
+
     }
     a {
         color: black;
     }
     .box {
-        border: solid 1px rgb(219,166,114);
-        width: 120%;
-        background-color: chocolate;
-        padding: 20px;
-        text-align: center;
+        border: solid 2px rgb(219,166,114);
+        width: 100%;
+        background-image: url('./assets/making-bakery-in-the-kitchen_1101-153.jpg');
+        background-size: 115%;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        text-align: right;
         box-shadow: brown 10px 8px 8px;
-        border-radius: 100%;
-        padding-top: 6%;
-        margin-left: -12% ;
-        margin-top: 10%;
-        color: rgb(114, 54, 62);
+        padding-top: 2%;
+        position: relative;
+        margin-top: 20%;
+        margin-left: 2%;
+
+    }
+   .gallery {
+       width: 120%;
+       margin-left: -1%;
+   }
+    .image {
+        margin: 20px;
+        width: 200px;
+        height: 200px;
+        text-align: center;
     }
 </style>

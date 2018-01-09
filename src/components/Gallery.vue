@@ -1,18 +1,21 @@
 
 <template>
-    <div>
-        <h1>Galerija</h1>
-        <gallery :images="images" :index="index" @close="index = null" style="margin-top: 50px"></gallery>
-        <div
-                class="image img-thumbnail img-responsive pull-left"
-                v-for="(image, imageIndex) in images"
-                :key="imageIndex"
-                @click="index = imageIndex"
-        >
-            <img class="pic" :src="image" alt="" style="width: 160px; margin: 10px;">
+    <div class="gallery">
+        <div>
+            <h1>Galerija</h1>
+            <gallery :images="images" :index="index" @close="index = null" style="margin-top: 50px"></gallery>
+            <div
+                    class="image img-thumbnail img-responsive pull-left"
+                    v-for="(image, imageIndex) in images"
+                    :key="imageIndex"
+                    @click="index = imageIndex"
+            >
+                <img class="pic" :src="image" alt="" style="width: 160px;">
+            </div>
+            <div class="clearfix"></div>
         </div>
-        <div class="clearfix"></div>
     </div>
+
 </template>
 
 <script>
@@ -44,12 +47,11 @@
     }
 </script>
 <style>
-.image {
-    margin: 12px;
-    margin-top: 40px;
-    border: 1px solid black;
+  .image {
+      border: 1px solid black;
 }
   .image:hover {
         cursor: pointer;
     }
+
 </style>
