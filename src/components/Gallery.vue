@@ -47,9 +47,7 @@
     }
 </script>
 <style>
-  .image {
-      border: 1px solid black;
-}
+
   .image:hover {
         cursor: pointer;
     }

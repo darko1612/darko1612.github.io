@@ -48,6 +48,10 @@ export default {
         margin-left: -1%;
 
     }
+    nav>ul>li:hover {
+        position: relative;
+        top: 2px;
+    }
 
 
     .header h3 {
@@ -135,7 +139,8 @@ export default {
 
        }
        div.image {
-           margin-left: 25%;
+
+           width: 100%;
        }
        div.gallery {
            width: 90%;
@@ -177,7 +182,7 @@ export default {
         color: black;
         text-shadow: white 3px 4px 3px;
         font-size: 46px;
-        font-weight: 500;
+        font-weight: 600;
 
     }
     a {
@@ -194,7 +199,7 @@ export default {
         box-shadow: brown 10px 8px 8px;
         padding-top: 2%;
         position: relative;
-        margin-top: 20%;
+        margin-top: 10%;
         margin-left: 2%;
 
     }
@@ -207,5 +212,13 @@ export default {
         width: 200px;
         height: 200px;
         text-align: center;
+        box-shadow: white 3px 3px 3px 3px;
+        border-radius: 15px;
+        border: 1px solid black;
+    }
+    .image:hover {
+        position: relative;
+        bottom:3px;
+        box-shadow: grey 4px 4px 4px 4px;
     }
 </style>
