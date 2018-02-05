@@ -3,7 +3,7 @@
     <div class="header clearfix">
         <nav>
             <ul class="nav nav-pills pull-right" v-for="nav in navigation">
-                        <li role="presentation" ><a :href="nav.link" ><img src="/src/assets/cracker.jpg" width="70px" alt="">{{ nav.page }}</a></li>
+                <li role="presentation" ><a :href="nav.link" ><img src="/src/assets/cracker.jpg" width="70px" alt="">{{ nav.page }}</a></li>
             </ul>
         </nav>
     </div>
